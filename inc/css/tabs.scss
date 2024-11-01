@@ -1,0 +1,151 @@
+
+
+
+
+/* TABS SEETING */
+
+/*
+SCSS variables and mixins
+*/
+/*
+Some styles to make this demo look pretty (or at least decent)
+If you want to style everything yourself, you shouldn't need these
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,900");
+body {
+  //padding: 1em;
+  //background: #eee;
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+body a {
+  text-decoration: none;
+  //color: #444;
+}
+body p {
+  margin-top: 0;
+}
+body div {
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 2em auto 0;
+  //text-align: center;
+}
+
+.tabbed-content {
+  //background: #fff;
+  //box-shadow: 1px 1px 6px #ccc;
+  //max-width: 600px;
+  //padding: 1em;
+  //margin: 1em auto;
+}
+
+.tabs ul {
+  margin: 0;
+  padding: 5px 0 1em 0;
+  //font-weight: bold;
+  
+}
+.tabs ul li {
+  background: #eee;
+  border-radius: 50px;
+}
+.tabs ul li a {
+  padding: .5em 1em;
+  border-radius: 50px;
+  margin: 0 0 5px 0;
+}
+.tabs ul li a:hover, .tabs ul li a.active {
+  background: #444;
+  color: #eee;
+  border-radius: 50px;
+}
+
+.item {
+  margin-bottom: 2px;
+}
+.item::before {
+  cursor: pointer;
+  font-weight: bold;
+  background: #eee;
+  padding: .5em;
+  display: block;
+}
+.item.active::before {
+  background: #444;
+  color: #eee;
+}
+.item.active .item-content {
+  padding: 0em 1em 1em 1em ;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media all and (min-width: 800px) {
+  .item.active .item-content {
+    padding-top: 0;
+  }
+
+  .tabs-side .tabs li {
+    margin-bottom: 2px;
+  }
+}
+/* 
+The project specific CSS starts here
+This is the minimum CSS that you will need in order for this to work
+*/
+.tabbed-content .tabs {
+  display: none;
+}
+.tabbed-content .item {
+  min-height: 2em;
+}
+.tabbed-content .item::before {
+  content: attr(data-title);
+}
+.tabbed-content .item .item-content {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+}
+.tabbed-content .item.active .item-content {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  float: left;
+  margin-top: 0;
+}
+
+@media all and (min-width: 800px) {
+  .tabbed-content .tabs {
+    display: block;
+  }
+  .tabbed-content .tabs li {
+    display: inline-block;
+  }
+  .tabbed-content .tabs li a {
+    display: block;
+  }
+  .tabbed-content .item {
+    min-height: 0;
+  }
+  .tabbed-content .item::before {
+    display: none;
+  }
+  .tabbed-content.tabs-side .tabs {
+    width: 170px;
+    float: left;
+  }
+  .tabbed-content.tabs-side .tabs li {
+    display: block;
+  }
+  .tabbed-content.tabs-side .item {
+    margin-left: 170px;
+  }
+}

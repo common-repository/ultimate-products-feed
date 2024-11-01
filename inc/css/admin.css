@@ -1,0 +1,501 @@
+@import "./scss/fontawesome.scss";
+@import "./scss/fa-solid.scss";
+@import "./scss/fa-brands.scss";
+
+body {
+    background-color: #F1F1F1;
+}
+
+div.feature-section p {
+    padding : 0px 0px 30px 0px;
+}
+
+
+.postbox .inside h2, .wrap [class$=icon32]+h2, .wrap h1, .wrap>h2:first-child {
+    margin-left: 0px;
+    margin: 0px 0px 20px 0px;
+    text-align: left;
+    font-size: 32px;
+    //font-weight: bold;
+    max-width: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 40px;
+}
+
+
+@media (min-width: 768px) {
+
+    .brand-pills > li > a {
+		padding: 5px 15px;
+		border-radius: 20px;
+		color: #888;
+		font: 400 15px "Roboto",Arial,sans-serif;
+    }
+    
+    
+}
+
+.upf-admin-form-table {
+	background: #FFF;
+	border-collapse: collapse;
+	margin-top: .5em;
+	width: 100%;
+	clear: both;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 0px 0px 10px 10px ;
+}
+
+.upf-admin-form-table caption {
+    margin-bottom: 0px;
+    padding:0px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid #dbdbdb;
+    background: #ffffff;
+    }
+    
+.upf-admin-form-table caption p {
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+    padding:20px;
+    text-align: left;
+    font-size: 15px;
+    color: #333;
+    
+    }
+    
+.upf-admin-form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 20px;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.upf-admin-form-table td {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 20px;
+    line-height: 1.3;
+    //font-weight: 600;
+}
+
+.upf-admin-form-table p {
+    display: block;
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 10px;
+    color: #777771;
+    line-height: 1.5;;
+}
+
+.upf-admin-form-table p.description {
+    color: #808080;
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+.col-sm-2 {
+    position: relative;
+    min-height: 1px;
+    padding: 7px 0px 0px 0px;
+}
+
+
+
+
+
+/* Checkbox mode apple */
+
+.tgl {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  cursor: pointer;
+}
+
+label.tgl {
+vertical-align: baseline;
+}
+
+.upf-admin-form-table p.label-toggle {
+	display: inline;
+    margin: 0;
+    padding: 0 0 0 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #777771;
+    line-height: 1.5;
+    float: right;
+}
+
+.tgl > input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  /* Put the input behind the label so it doesn't overlay text */
+  visibility: hidden;
+    
+}
+.tgl .tgl_body {
+  width: 50px;
+  height: 20px;
+  background: white;
+  border: 1px solid #dadde1;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+  
+}
+.tgl .tgl_switch {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: white;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  border-radius: 50%;
+  border: 1px solid #ccd0d6;
+  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.13);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.13);
+  -moz-transition: left 250ms cubic-bezier(0.34, 1.61, 0.7, 1), -moz-transform 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -o-transition: left 250ms cubic-bezier(0.34, 1.61, 0.7, 1), -o-transform 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -webkit-transition: left 250ms cubic-bezier(0.34, 1.61, 0.7, 1), -webkit-transform 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  transition: left 250ms cubic-bezier(0.34, 1.61, 0.7, 1), transform 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  z-index: 1;
+}
+.tgl .tgl_track {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.tgl .tgl_bgd {
+  position: absolute;
+  right: -10px;
+  top: 0;
+  bottom: 0;
+  width: 55px;
+  -moz-transition: left 250ms cubic-bezier(0.34, 1.61, 0.7, 1), right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -o-transition: left 250ms cubic-bezier(0.34, 1.61, 0.7, 1), right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -webkit-transition: left 250ms cubic-bezier(0.34, 1.61, 0.7, 1), right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  transition: left 250ms cubic-bezier(0.34, 1.61, 0.7, 1), right 250ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  background: #439fd8 url("http://petelada.com/images/toggle/tgl_check.png") center center no-repeat;
+}
+.tgl .tgl_bgd-negative {
+  right: auto;
+  left: -45px;
+  background: white url("http://petelada.com/images/toggle/tgl_x.png") center center no-repeat;
+}
+.tgl:hover .tgl_switch {
+  border-color: #b5bbc3;
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+}
+.tgl:active .tgl_switch {
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
+.tgl > :not(:checked) ~ .tgl_body > .tgl_switch {
+  left: 30px;
+}
+.tgl > :not(:checked) ~ .tgl_body .tgl_bgd {
+  right: -45px;
+}
+.tgl > :not(:checked) ~ .tgl_body .tgl_bgd.tgl_bgd-negative {
+  right: auto;
+  left: -10px;
+}
+
+a.proaddon {
+	background: #bfffd5;
+	float: right;
+	padding: 5px 10px;
+	border-radius: 30px;
+}
+
+/* Bouton enregistre */
+
+.fat input#submit.button.button-primary {
+    background: #008ec2;
+    border :0px solid black;
+    color: #fff;
+    float: right;
+    margin: 0 12px 20px;
+    padding: 10px 20px 10px 20px;
+    text-shadow: none;
+    height: auto;
+}
+
+input.button-secondary.license_activate {
+    background: #9ae5a8;
+    border :0px solid black;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    text-shadow: none;
+    height: auto;
+}
+
+.dashicons-yes {
+	content: "\f147";
+	background: none;
+	color: #bcebb5;
+	padding:0 5px 0 0;
+	font-size: 30px;
+}
+
+.dashicons-no {
+	content: "\f158";
+	background: none;
+	color: #ebb5b5;
+	padding:0 5px 0 0;
+	font-size: 30px;
+}
+
+/* table alerte */
+
+table.alert {
+	width:100%;
+	border-radius: 10px;
+	border: none;
+	border:0px;
+	margin-bottom: 20px;
+	border-spacing: 0px;
+}
+
+table.alert th {
+	background: #ffe066;
+	color:#fbc025;
+	border-radius: 10px 0px 0px 10px;
+	border: none;
+	border:0px;
+	font-size: 4em;
+}
+
+table.alert .dashicons {
+	font-size: 80px;
+	width: 80px;
+	height: 80px;
+	padding: 20px 10px 10px 10px;
+}
+
+
+
+table.alert td {
+	color: #495057;
+	background: #fff9db;
+	border-radius:  0px 10px 10px 0px;
+	border: none;
+	border:0px;
+	padding: 10px 20px;
+}
+
+
+
+
+
+/*table pricing*/
+ @import url(https://fonts.googleapis.com/css?family=Lato:700);
+                
+        .wrapper-card {
+            display: flex;
+            flex-wrap: nowrap;
+            margin: 40px auto;
+            width: 77%;
+        }
+        
+        .card {
+            background: #fff;
+            border-radius: 3px;
+            box-shadow: 0 1px 1px transparent;
+            flex: 1;
+            margin: 8px;
+            padding: 30px;
+            position: relative;
+            text-align: center;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .card.popular {
+            margin-top: -10px;
+            margin-bottom: -10px;
+        }
+        
+        .card.popular .card-title h3 {
+            color: #3498db;
+            font-size: 22px;
+        }
+        
+        .card.popular .card-price {
+            margin: 50px;
+        }
+        
+        .card.popular .card-price h1 {
+            color: #3498db;
+            font-size: 60px;
+        }
+        
+        .card.popular .card-action button {
+            background-color: #3498db;
+            border-radius: 80px;
+            color: #fff;
+            font-size: 17px;
+            margin-top: -15px;
+            padding: 15px;
+            height: 80px;
+        }
+        
+        .card.popular .card-action button:hover {
+            background-color: #2386c8;
+            font-size: 23px;
+        }
+        
+        .card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .card-ribbon {
+            position: absolute;
+            overflow: hidden;
+            top: -10px;
+            left: -10px;
+            width: 114px;
+            height: 112px;
+        }
+        
+        .card-ribbon span {
+            position: absolute;
+            display: block;
+            width: 160px;
+            padding: 10px 0;
+            background-color: #3498db;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            font-size: 13px;
+            text-transform: uppercase;
+            text-align: center;
+            left: -35px;
+            top: 25px;
+            transform: rotate(-45deg);
+        }
+        
+        .card-ribbon::before,
+        .card-ribbon::after {
+            position: absolute;
+            z-index: -1;
+            content: '';
+            display: block;
+            border: 5px solid #2980b9;
+            border-top-color: transparent;
+            border-left-color: transparent;
+        }
+        
+        .card-ribbon::before {
+            top: 0;
+            right: 0;
+        }
+        
+        .card-ribbon::after {
+            bottom: 0;
+            left: 0;
+        }
+        
+        .card-title h3 {
+            color: rgba(0, 0, 0, 0.3);
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        
+        .card-title h4 {
+            color: rgba(0, 0, 0, 0.6);
+        }
+        
+        .card-price {
+            margin: 60px 0;
+        }
+        
+        .card-price h1 {
+            font-size: 46px;
+        }
+        
+        .card-price h1 sup {
+            font-size: 15px;
+            display: inline-block;
+            margin-left: -20px;
+            width: 10px;
+        }
+        
+        .card-price h1 small {
+            color: rgba(0, 0, 0, 0.3);
+            display: block;
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+        
+        .card-description ul {
+            display: block;
+            list-style: none;
+            margin: 60px 0;
+            padding: 0;
+        }
+        
+        .card-description li {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 15px;
+            margin: 0 0 15px;
+        }
+       /*
+        .card-description li::before {
+            font-family: FontAwesome;
+            content: "\f00c";
+            padding: 0 5px 0 0;
+            color: rgba(0, 0, 0, 0.15);
+        }
+        */
+        .card-action button {
+            background: transparent;
+            border: 2px solid #3498db;
+            border-radius: 30px;
+            color: #3498db;
+            cursor: pointer;
+            display: block;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 20px;
+            width: 100%;
+            height: 60px;
+            text-transform: uppercase;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .card-action button:hover {
+            background-color: #3498db;
+            box-shadow: 0 2px 4px #196090;
+            color: #fff;
+            font-size: 17px;
+        }

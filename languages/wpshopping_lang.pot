@@ -1,0 +1,914 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Ultimate Products Feed\n"
+"POT-Creation-Date: 2018-04-15 19:03+0200\n"
+"PO-Revision-Date: 2018-04-15 19:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin/license.php:49 inc/admin/license.php:78
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: inc/admin/license.php:57
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: inc/admin/license.php:62
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: inc/admin/license.php:65
+msgid "Invalid license."
+msgstr ""
+
+#: inc/admin/license.php:69
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: inc/admin/license.php:72
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: inc/admin/license.php:75
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: inc/admin/license.php:275
+msgid "Plugin License Options"
+msgstr ""
+
+#: inc/admin/license.php:288
+msgid "Oh oh oh nice shop !!! "
+msgstr ""
+
+#: inc/admin/license.php:289
+msgid "You have "
+msgstr ""
+
+#: inc/admin/license.php:289
+msgid "products on line !"
+msgstr ""
+
+#: inc/admin/license.php:290
+msgid ""
+"You have exceeded the maximum number of 100 products to continue using the "
+"free license. Please pass on a pro license"
+msgstr ""
+
+#: inc/admin/license.php:291
+msgid "Buy a PRO lincense"
+msgstr ""
+
+#: inc/admin/license.php:294
+msgid "Ooups !!! "
+msgstr ""
+
+#: inc/admin/license.php:295
+msgid ""
+"This key seems invalid, you can find the key on your wp-shopping.com account"
+msgstr ""
+
+#: inc/admin/license.php:296
+msgid "Go to My Account"
+msgstr ""
+
+#: inc/admin/license.php:299
+msgid "Valid license"
+msgstr ""
+
+#: inc/admin/license.php:300
+msgid "See my account"
+msgstr ""
+
+#: inc/admin/license.php:302
+msgid "Your catalog contains less than 100 products, you get a free lincense"
+msgstr ""
+
+#: inc/admin/license.php:313
+msgid "License Key "
+msgstr ""
+
+#: inc/admin/license.php:317
+msgid "Your Key"
+msgstr ""
+
+#: inc/admin/license.php:319
+msgid "Enter your license key"
+msgstr ""
+
+#: inc/admin/license.php:329
+msgid "Save your license key"
+msgstr ""
+
+#: inc/admin/license.php:335
+msgid "Add this site to my license"
+msgstr ""
+
+#: inc/admin/license.php:339
+msgid "Disconnect my site"
+msgstr ""
+
+#: inc/admin/license.php:342
+msgid "Allow my site"
+msgstr ""
+
+#: inc/admin/license.php:355
+msgid "License info"
+msgstr ""
+
+#: inc/admin/license.php:359
+msgid "License details"
+msgstr ""
+
+#: inc/admin/license.php:362 inc/admin/license.php:368
+msgid "your license will be automatically renewed in "
+msgstr ""
+
+#: inc/admin/license.php:362
+msgid "days"
+msgstr ""
+
+#: inc/admin/license.php:364
+msgid "Renew your license"
+msgstr ""
+
+#: inc/admin/license.php:370
+msgid "You don't have a valid license "
+msgstr ""
+
+#: inc/admin/license.php:375 inc/admin/option.php:45
+msgid "My account"
+msgstr ""
+
+#: inc/admin/license.php:379
+msgid ""
+"You can find your invoice or other licenses details in your <a href="
+"\"https://wp-shopping.com/my-account/\">account</a>"
+msgstr ""
+
+#: inc/admin/license.php:381
+msgid ""
+"This license is no longer valid, you can buy the PRO version ou update on "
+"your <a href=\"https://wp-shopping.com/my-account/\">account</a>"
+msgstr ""
+
+#: inc/admin/license.php:408
+msgid ""
+"It seems that there is a small problem with your <b>Ultimate Product Feed</"
+"b> plugin."
+msgstr ""
+
+#: inc/admin/license.php:408
+msgid "Read more"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/admin/option.php:18
+msgid "Ultimate Products Feed"
+msgstr ""
+
+#: inc/admin/option.php:19
+msgid "Welcome in your products feed control panel"
+msgstr ""
+
+#: inc/admin/option.php:22
+msgid "Start!"
+msgstr ""
+
+#: inc/admin/option.php:23
+msgid "Configure your feed"
+msgstr ""
+
+#: inc/admin/option.php:25
+msgid "And boost your sales !"
+msgstr ""
+
+#: inc/admin/option.php:29
+msgid "Next step"
+msgstr ""
+
+#: inc/admin/option.php:31 inc/admin/settings.php:14
+msgid "Settings Google Shopping"
+msgstr ""
+
+#: inc/admin/option.php:32
+msgid "Google Merchant XML Feed"
+msgstr ""
+
+#: inc/admin/option.php:33
+msgid "Facebook Product XML Feed"
+msgstr ""
+
+#: inc/admin/option.php:34
+msgid "Plugin documentation"
+msgstr ""
+
+#: inc/admin/option.php:42
+msgid "My license"
+msgstr ""
+
+#: inc/admin/option.php:57
+msgid ""
+"Use Merchant Tools from Google Merchant Center to upload your product data "
+"and let millions of shoppers see your online and in-store inventory."
+msgstr ""
+
+#: inc/admin/settings.php:17
+msgid ""
+"Check the options that correspond to the products you sell. The sections "
+"that you check add menus in your product pages. You can change these options "
+"at the same time as your business evolves, add or remove at any time."
+msgstr ""
+
+#: inc/admin/settings.php:26 inc/admin/settings.php:33
+#: inc/admin/settings.php:59
+msgid "Products options"
+msgstr ""
+
+#: inc/admin/settings.php:27 inc/admin/settings.php:134
+#: inc/admin/settings.php:139
+msgid "Apparel attributes"
+msgstr ""
+
+#: inc/admin/settings.php:28
+msgid "Adwords setting"
+msgstr ""
+
+#: inc/admin/settings.php:29
+msgid "Adwords custom label"
+msgstr ""
+
+#: inc/admin/settings.php:39
+msgid "Global options"
+msgstr ""
+
+#: inc/admin/settings.php:43
+msgid "Unique Brand"
+msgstr ""
+
+#: inc/admin/settings.php:45
+msgid ""
+"If you sell products of different brands, leave it blank. You must not "
+"provide your store name as the brand unless you manufacture the product."
+msgstr ""
+
+#: inc/admin/settings.php:50
+msgid "Global Shipping"
+msgstr ""
+
+#: inc/admin/settings.php:52
+msgid "Add an average shipping cost"
+msgstr ""
+
+#: inc/admin/settings.php:63
+msgid "Variants"
+msgstr ""
+
+#: inc/admin/settings.php:79
+msgid "Add variants in your products feed"
+msgstr ""
+
+#: inc/admin/settings.php:85
+msgid "Energy efficiency"
+msgstr ""
+
+#: inc/admin/settings.php:96
+msgid "Energy Labels (EU Countries and Switzerland Only)"
+msgstr ""
+
+#: inc/admin/settings.php:98
+msgid ""
+"This attribute allows you to submit the energy label for your applicable "
+"products in feeds targeting European Union countries and Switzerland. The "
+"\"energy efficiency class\" attribute allows you to specify the energy "
+"efficiency class for certain product categories as defined in EU directive "
+"2010/30/EU.<br />Recommended if applicable for items in feeds targeting "
+"Germany, France, the United Kingdom, Italy, Spain, Switzerland, the Czech "
+"Republic, and the Netherlands.<br />Products that might require this "
+"attribute include but are not limited to: refrigerators, freezers, combined "
+"washer-driers, wine-storage appliances, washing machines, tumble dryers, "
+"dishwashers, ovens, water heaters and hot water storage appliances, air "
+"conditioners, electrical lamps and luminaires, and televisions."
+msgstr ""
+
+#: inc/admin/settings.php:105
+msgid "Adult Products"
+msgstr ""
+
+#: inc/admin/settings.php:123
+msgid "I sell adult products"
+msgstr ""
+
+#: inc/admin/settings.php:125
+msgid ""
+"Google cares about the family status of the product listings you submit in "
+"order to make sure that appropriate content is shown to an appropriate "
+"audience. You should use the ‘adult’ attribute to indicate that individual "
+"items will be considered “adult” or “non-family safe”."
+msgstr ""
+
+#: inc/admin/settings.php:144
+msgid "Apparel Products"
+msgstr ""
+
+#: inc/admin/settings.php:160
+msgid "I sell unique products"
+msgstr ""
+
+#: inc/admin/settings.php:162
+msgid ""
+"Clothing, Shoes, Sunglasses, Handbags, Wallets & Cases, Jewelry, Watches ..."
+msgstr ""
+
+#: inc/admin/settings.php:167
+msgid "Attribute Color"
+msgstr ""
+
+#: inc/admin/settings.php:171 inc/admin/settings.php:199
+#: inc/admin/settings.php:225 inc/admin/settings.php:251
+#: inc/admin/settings.php:449 inc/admin/settings.php:465
+#: inc/admin/settings.php:481 inc/admin/settings.php:497
+#: inc/admin/settings.php:513
+msgid "None"
+msgstr ""
+
+#: inc/admin/settings.php:188
+msgid ""
+"Chose your woocommerce color attribute. This defines the dominant colour(s) "
+"for an item. When a single item has multiple colours, you can submit up to "
+"two additional values as accent colours, eg: black or black/green"
+msgstr ""
+
+#: inc/admin/settings.php:195
+msgid "Attribute Size"
+msgstr ""
+
+#: inc/admin/settings.php:216
+msgid ""
+"Chose your woocommerce size attribute. This indicates the size of a product. "
+"For Clothing & Accessories items, you can also submit the size type and size "
+"system attributes to provide more details about your sizing."
+msgstr ""
+
+#: inc/admin/settings.php:221
+msgid "Attribute Gender"
+msgstr ""
+
+#: inc/admin/settings.php:242
+msgid ""
+"Chose your woocommerce gender attribute. Required for all products in an "
+"item group that vary by gender. Required for all clothing items in feeds "
+"that target Brazil, France, Germany, Japan, the UK and the US. Recommended "
+"for all products for which gender is an important, distinguishing attribute. "
+"Taxonomy term slug must be : male, female and unisex"
+msgstr ""
+
+#: inc/admin/settings.php:247
+msgid "Attribute Age group"
+msgstr ""
+
+#: inc/admin/settings.php:268
+msgid ""
+"Chose your woocommerce age group attribute. Use the age group attribute to "
+"indicate the demographic of your item. Taxonomy terms slug must be : "
+"newborn, infant, toddler, kids or adult"
+msgstr ""
+
+#: inc/admin/settings.php:276
+msgid "Adwords"
+msgstr ""
+
+#: inc/admin/settings.php:283
+msgid "Adwords meta"
+msgstr ""
+
+#: inc/admin/settings.php:287
+msgid "Remarketing Adwords ID"
+msgstr ""
+
+#: inc/admin/settings.php:289
+msgid ""
+"To show ads to people who have visited your desktop, mobile website, or app, "
+"add the remarketing global site tag and event snippets to your website. The "
+"global site tag is a web tagging library for Google's site measurement, "
+"conversion tracking, and remarketing products. It’s a block of code that "
+"adds your website visitors to remarketing lists; you can then target these "
+"lists with your ads."
+msgstr ""
+
+#: inc/admin/settings.php:290
+msgid "Eg: AW-123456789"
+msgstr ""
+
+#: inc/admin/settings.php:290
+msgid "Find your customer ID"
+msgstr ""
+
+#: inc/admin/settings.php:298
+msgid "Adwords optimization"
+msgstr ""
+
+#: inc/admin/settings.php:302
+msgid "Minimum price"
+msgstr ""
+
+#: inc/admin/settings.php:304
+msgid ""
+"Do not send on google shopping products whose price is lower than the "
+"indicated amount"
+msgstr ""
+
+#: inc/admin/settings.php:309 inc/admin/settings.php:332
+#: inc/admin/settings.php:355
+msgid "Excluded destination"
+msgstr ""
+
+#: inc/admin/settings.php:325
+msgid "Shopping"
+msgstr ""
+
+#: inc/admin/settings.php:327
+msgid "Prevent your products under minimum price from showing in Shopping ads."
+msgstr ""
+
+#: inc/admin/settings.php:348
+msgid "Shopping Actions"
+msgstr ""
+
+#: inc/admin/settings.php:350
+msgid ""
+"Prevent your products under minimum price from showing in Shopping Actions."
+msgstr ""
+
+#: inc/admin/settings.php:371
+msgid "Display Ads"
+msgstr ""
+
+#: inc/admin/settings.php:373
+msgid ""
+"Prevent your products under minimum price from showing in dynamic "
+"remarketing ads"
+msgstr ""
+
+#: inc/admin/settings.php:379
+msgid "Hide out of stock product"
+msgstr ""
+
+#: inc/admin/settings.php:395
+msgid "Hide products out of stock"
+msgstr ""
+
+#: inc/admin/settings.php:397
+msgid ""
+"\n"
+"\thide products out of stock to save money."
+msgstr ""
+
+#: inc/admin/settings.php:410
+msgid "Adwords Custom Label"
+msgstr ""
+
+#: inc/admin/settings.php:417
+msgid "Adwords custom Labels"
+msgstr ""
+
+#: inc/admin/settings.php:421
+msgid "Custom label"
+msgstr ""
+
+#: inc/admin/settings.php:437
+msgid "Active custom label"
+msgstr ""
+
+#: inc/admin/settings.php:440
+msgid ""
+"Custom labels, custom_label_0 through custom_label_4, allow you to create "
+"specific filters to use in your Shopping campaigns. Use these filters for "
+"reporting and bidding on groups of products. The information you include in "
+"this attribute won’t be shown to users."
+msgstr ""
+
+#: inc/admin/settings.php:445
+msgid "custom_label_0"
+msgstr ""
+
+#: inc/admin/settings.php:450 inc/admin/settings.php:466
+#: inc/admin/settings.php:482 inc/admin/settings.php:498
+#: inc/admin/settings.php:514 inc/google-shopping/google-shopping-feed.php:340
+msgid "Products on sale"
+msgstr ""
+
+#: inc/admin/settings.php:451 inc/admin/settings.php:467
+#: inc/admin/settings.php:483 inc/admin/settings.php:499
+#: inc/admin/settings.php:515
+msgid "Recent products less 30 and 90 days"
+msgstr ""
+
+#: inc/admin/settings.php:452 inc/admin/settings.php:468
+#: inc/admin/settings.php:484 inc/admin/settings.php:500
+#: inc/admin/settings.php:516
+msgid "Average rating"
+msgstr ""
+
+#: inc/admin/settings.php:453 inc/admin/settings.php:469
+#: inc/admin/settings.php:485 inc/admin/settings.php:501
+#: inc/admin/settings.php:517
+msgid "Featured products"
+msgstr ""
+
+#: inc/admin/settings.php:461
+msgid "custom_label_1"
+msgstr ""
+
+#: inc/admin/settings.php:477
+msgid "custom_label_2"
+msgstr ""
+
+#: inc/admin/settings.php:493
+msgid "custom_label_3"
+msgstr ""
+
+#: inc/admin/settings.php:509
+msgid "custom_label_4"
+msgstr ""
+
+#: inc/admin/settings.php:534
+msgid ""
+"Some options need variations to work with Google Shopping. If you use "
+"variable products, bundles products or if you need more options for adwords. "
+"We invite you to "
+msgstr ""
+
+#: inc/admin/settings.php:534
+msgid "download the PRO add-on"
+msgstr ""
+
+#: inc/admin/settings.php:537
+msgid "Save Changes"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:15
+msgid "Copy the google category that best fits your this woocommerce catégory."
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:15
+#: inc/google-shopping/google-shopping-option.php:75
+msgid ""
+"The Google list is here : <a href=\"https://www.google.com/basepages/"
+"producttype/taxonomy.en-US.txt\" target=\"_blank\"> List</a>"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:15
+#: inc/google-shopping/google-shopping-option.php:75
+msgid ""
+"Please note that the Google list sometimes has problems's accents, we must "
+"rectify!"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:20
+msgid "I want to hide this category for Google Shopping"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:40
+msgid ""
+"Copy the google category that best fits your product category.<br /> "
+"Example: <b> Sports equipment > Water Sports > Surfing > Surfboards</b><br /"
+">Google list is here <a href=\"http://www.google.com/basepages/producttype/"
+"taxonomy.en-US.txt\" target=\"_blank\"> List</A><br /><small style=\"color:"
+"red\">Please note that the Google list sometimes has problems's accents, we "
+"must rectify!</small>"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:44
+msgid "Hide category"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:47
+msgid "I want to hide this category for Google Shopping "
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:78
+msgid "http://www.google.com/basepages/producttype/taxonomy.en-US.txt"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:96
+msgid "Google Product Category"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:103
+msgid "Category"
+msgstr ""
+
+#: inc/google-shopping/google-category-field.php:104
+msgid ""
+"Copy the google category that best fits this <br /><small>Example: Apparel & "
+"Accessories > Clothing Accessories > Sunglasses</small><br />Google list is "
+"here: <a href = \""
+msgstr ""
+
+#: inc/google-shopping/google-shopping-feed.php:343
+msgid "Products less 30 days"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-feed.php:346
+msgid "Products less 90 days"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-feed.php:352
+msgid "Featured Products"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:2
+msgid "Google Merchant Center"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:4
+msgid ""
+"Increase traffic to your website's store with Google Shopping. Submit your "
+"products to Google Shopping so shoppers can quickly and easily find your "
+"site when they're shopping online."
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:5
+msgid ""
+"Login to your <a href=\"http://www.google.fr/merchants/\" target=\"_blank"
+"\">Google Merchants</a>, and add your feed."
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:13
+msgid "Google vérification"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:16
+msgid "Verification & Claiming"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:19
+msgid ""
+"Copy the \"Website Verification\" meta tag. Find it on Google merchant "
+"dashboard : <br />Setting > Website Verification > Alternative methods > "
+"HTML Tag"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:20
+msgid "Google Merchants Dashboard"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:28
+msgid "Your magic feed"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:31
+msgid "Your Google Shopping Feed"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:60
+msgid ""
+"if your feed google shopping dont work, you should save your permalinks "
+"again to activate the new feed: "
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:60
+msgid "Permalink"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:70
+msgid "Google category"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:73
+msgid "Google catégory"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:75
+msgid ""
+"if you sell one type of product, copy the google category that best fits "
+"your site. If you sell different products, you will learn each of your "
+"categories in the appropriate fields : "
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:75
+msgid "Woocommerce catégory"
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:75
+msgid "You can also change the \"Google category\" for each item."
+msgstr ""
+
+#: inc/google-shopping/google-shopping-option.php:104
+msgid "Category feed"
+msgstr ""
+
+#: index.php:27
+msgid "Google et Facebook Shopping"
+msgstr ""
+
+#: index.php:28
+msgid "Google Shopping"
+msgstr ""
+
+#: index.php:38 index.php:39
+msgid "Setting"
+msgstr ""
+
+#: index.php:48 index.php:49
+msgid "Google Merchant"
+msgstr ""
+
+#: index.php:58 index.php:59
+msgid "Pro license"
+msgstr ""
+
+#: index.php:91
+msgid "Code barre"
+msgstr ""
+
+#: index.php:236
+msgid ""
+"It seems that <a href=\"/wp-admin/plugin.php\">Woocommerce</a> is not "
+"installed. Please activate it to use WP Shopping"
+msgstr ""
+
+#: index.php:253
+msgid "Attention, vous utilisez Woocommerce "
+msgstr ""
+
+#: index.php:299 index.php:484
+msgid "GTIN"
+msgstr ""
+
+#: index.php:301 index.php:486
+msgid "Use the 'gtin' attribute to submit Global Trade Item Numbers (GTINs)"
+msgstr ""
+
+#: index.php:313
+msgid "Brand"
+msgstr ""
+
+#: index.php:315
+msgid ""
+"You must not provide your store name as the brand unless you manufacture the "
+"product."
+msgstr ""
+
+#: index.php:322
+msgid "MPN"
+msgstr ""
+
+#: index.php:324
+msgid ""
+"A Manufacturer Part Number is used to reference and identify a product using "
+"a manufacturer specific naming other than GTIN."
+msgstr ""
+
+#: index.php:331
+msgid "Product Shipping"
+msgstr ""
+
+#: index.php:333
+msgid "."
+msgstr ""
+
+#: index.php:340
+msgid "Condition"
+msgstr ""
+
+#: index.php:342
+msgid "New"
+msgstr ""
+
+#: index.php:343
+msgid "Used"
+msgstr ""
+
+#: index.php:344
+msgid "Refurbished"
+msgstr ""
+
+#: index.php:354
+msgid "Adult"
+msgstr ""
+
+#: index.php:355
+msgid ""
+"The adult status assigned to your product listings through the ‘adult’ "
+"attribute affects where product listings can show. For example, \"adult\" or "
+"\"non-family safe\" product listings aren't allowed to be shown in certain "
+"countries or to a certain audience."
+msgstr ""
+
+#: index.php:367
+msgid "Energy efficiency class"
+msgstr ""
+
+#: index.php:369
+msgid "none"
+msgstr ""
+
+#: index.php:370
+msgid "A+++"
+msgstr ""
+
+#: index.php:371
+msgid "A++"
+msgstr ""
+
+#: index.php:372
+msgid "A+"
+msgstr ""
+
+#: index.php:373
+msgid "A"
+msgstr ""
+
+#: index.php:374
+msgid "B"
+msgstr ""
+
+#: index.php:375
+msgid "C"
+msgstr ""
+
+#: index.php:376
+msgid "D"
+msgstr ""
+
+#: index.php:377
+msgid "E"
+msgstr ""
+
+#: index.php:378
+msgid "F"
+msgstr ""
+
+#: index.php:379
+msgid "G"
+msgstr ""
+
+#: index.php:392 index.php:394
+msgid "<i>Current category : "
+msgstr ""
+
+#: index.php:396
+msgid ""
+"It is strongly recommended that you use the most specific applicable "
+"category for all your items from the <a href=\"http://www.google.com/"
+"basepages/producttype/taxonomy.en-US.txt\" target=\"_blank\">full Google "
+"product taxonomy</A>. "
+msgstr ""
+
+#: index.php:403
+msgid "Google Category"
+msgstr ""
+
+#: index.php:405
+msgid ""
+"Any category from Google’s product taxonomy must include the full path. For "
+"example, \"Apparel & Accessories > Clothing > Jeans\" is an acceptable "
+"value, but \"Jeans\" is not.<br />Find the list here <a href=\"http://www."
+"google.com/basepages/producttype/taxonomy.en-US.txt\" target=\"_blank\"> "
+"Google Taxonomie</A><br />"
+msgstr ""
+
+#: index.php:416
+msgid "Hide product"
+msgstr ""
+
+#: index.php:417
+msgid "Hide this product from your products feed"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wp-shopping.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"XML woocommerce products Feed for Google merchant, google shopping, google "
+"adwords"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Shopping"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/fredericgalline"
+msgstr ""
